@@ -50,6 +50,15 @@ footer {
   opacity: 70%;
 }
 
+nav li a {
+  color: var(--secondary-colour);
+  font-family: "PT Sans", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "PT Sans", sans-serif;
+}
+
 .hero-index {
   padding: 25px;
 }
@@ -89,10 +98,10 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
-.about-main {
+.main-content {
   padding: 35px;
 }
-.about-main p {
+.main-content p {
   padding-top: 10px;
 }
 .my-image {
