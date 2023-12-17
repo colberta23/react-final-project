@@ -59,6 +59,10 @@ nav li a {
   font-family: "PT Sans", sans-serif;
 }
 
+.active {
+  color: var(--third-colour) !important;
+}
+
 .hero-index {
   padding: 25px;
 }
