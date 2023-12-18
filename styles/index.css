@@ -88,17 +88,6 @@ footer {
   border-color: white;
 }
 
-.primary-link {
-  border-radius: 4px;
-  padding: 12px 18px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background-color: var(--third-colour);
-  color: white;
-  width: 250px;
-  text-align: center;
-  margin-top: 20px;
-}
 .main-content {
   padding: 35px;
 }
@@ -174,6 +163,15 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
+  color: var(--third-colour);
+}
+
+footer .github-link {
+  display: flex;
+  justify-content: center;
+}
+
+footer .github-link a {
   color: var(--third-colour);
 }
 
